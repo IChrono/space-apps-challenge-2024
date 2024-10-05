@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Space-App-Challenge-2024.sln"
+    "dotnet.defaultSolution": "space-app-challenge-2024.sln"
 }
