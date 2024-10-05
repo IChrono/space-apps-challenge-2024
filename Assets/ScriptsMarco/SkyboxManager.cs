@@ -38,9 +38,9 @@ public class SkyboxManager : MonoBehaviour
         skyboxSphere.GetComponent<Renderer>().sharedMaterial.SetFloat("_Cutoff_Height", 1f);
 
     }
-    public void SetSkyboxToVisible(float skyboxid)
+    public void SetSkyboxToVisible(int skyboxid)
     {
-        skyboxSphere.GetComponent<Renderer>().sharedMaterial.SetTexture("_Base_Texture", (skyboxid == 0 ? textures[0]:textures[1] ) );
+        skyboxSphere.GetComponent<Renderer>().sharedMaterial.SetTexture("_Base_Texture", textures[skyboxid] );
         skyboxSphere.GetComponent<Renderer>().sharedMaterial.SetFloat("_Cutoff_Height", -1f);
     }
 
