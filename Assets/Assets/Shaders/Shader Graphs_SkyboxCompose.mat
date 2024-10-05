@@ -53,7 +53,7 @@ Material:
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
     - _CurrentSkyboxIndex: 0
-    - _Cutoff_Height: -1
+    - _Cutoff_Height: 1
     - _Glow_Thick: 0.01
     - _Noise_Scale: 800
     - _Noise_Strength: 0.15
