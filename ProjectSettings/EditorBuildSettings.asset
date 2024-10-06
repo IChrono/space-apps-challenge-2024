@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Samples/Meta XR Interaction \u200BSDK/68.0.2/Example Scenes/SnapExamples.unity"
     guid: 01ca63189b69e00488487d660224a315
+  - enabled: 0
+    path: Assets/TestingPassThru/PassThru.unity
+    guid: cb3bb0803108f4e7694e29f88962fa97
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c62eb61aeec0b472d9c42fe23c1d3c41,
       type: 2}
