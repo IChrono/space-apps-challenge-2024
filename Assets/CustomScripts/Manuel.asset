@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 42c670e372a97445f804bbde5f2e4725, type: 3}
-  m_Name: MeSorea
+  m_Name: Manuel
   m_EditorClassIdentifier: 
   id: 1
-  exoName: Terra
-  description: Pianeta acquoso
-  distanceLightYears: 98
+  exoName: Manuel
+  description: fbdv
+  distanceLightYears: 12

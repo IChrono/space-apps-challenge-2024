@@ -23,7 +23,7 @@ public class DialogManager : MonoBehaviour
 
     public void ShowDescription(PlanetData planet) {
         dialog.SetActive(true);
-        title.text=planet.description;
+        title.text=planet.exoName;
         description.text=planet.description;
     }
 
