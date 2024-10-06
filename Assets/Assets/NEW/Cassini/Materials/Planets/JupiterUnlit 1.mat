@@ -1,0 +1,229 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: JupiterUnlit 1
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_D4406763:
+        m_Texture: {fileID: 2800000, guid: 3b707cedf5af3f545b60983b435cf38c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: da596df974bdc454a9a82e973bdb8946, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 3b707cedf5af3f545b60983b435cf38c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 3b707cedf5af3f545b60983b435cf38c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_61ADF509_Texture:
+        m_Texture: {fileID: 2800000, guid: 21b276bcca044de4d953dd05302e781f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _V_WIRE_AoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _V_WIRE_NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _V_WIRE_SourceTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _V_WIRE_WireTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_48649ADA: 1.5
+    - Vector1_6E0C0503: 0.5
+    - Vector1_9687BA5F: 0
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 1
+    - _BlendOp: 0
+    - _BordColorFromTexture: 0
+    - _BordIntensity: 0.7
+    - _Bordpower: 1.5
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _DstBlendAlpha: 0
+    - _EnvironmentReflections: 1
+    - _Fresnel: 0
+    - _FresnelActive: 1
+    - _Gloss: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _SampleGI: 0
+    - _Smoothness: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
+    - _Surface: 0
+    - _Tessellation: 5
+    - _UVSec: 0
+    - _UseAplphaChannel: 0
+    - _V_WIRE_Ao: 0
+    - _V_WIRE_AoStrength: 1
+    - _V_WIRE_BumpEnumID: 0
+    - _V_WIRE_DistanceFade: 0
+    - _V_WIRE_DistanceFadeEnd: 10
+    - _V_WIRE_DistanceFadeStart: 5
+    - _V_WIRE_DynamicGI: 0
+    - _V_WIRE_DynamicGIEnumID: 0
+    - _V_WIRE_DynamicGIStrength: 0
+    - _V_WIRE_DynamicMaskEffectsBaseTexEnumID: 1
+    - _V_WIRE_DynamicMaskEffectsBaseTexInvert: 0
+    - _V_WIRE_DynamicMaskEnumID: 1
+    - _V_WIRE_DynamicMaskInvert: -1
+    - _V_WIRE_DynamicMaskSmooth: 1
+    - _V_WIRE_DynamicMaskType: 0
+    - _V_WIRE_EmissionStrength: 0
+    - _V_WIRE_FixedSize: 0
+    - _V_WIRE_FresnelBias: 0
+    - _V_WIRE_FresnelEnumID: 0
+    - _V_WIRE_FresnelInvert: 0
+    - _V_WIRE_FresnelPow: 1
+    - _V_WIRE_ImprovedBlendEnumID: 0
+    - _V_WIRE_IncludeLightEnumID: 0
+    - _V_WIRE_NormalScale: 1
+    - _V_WIRE_PBR_Compiler: 0
+    - _V_WIRE_RenderingOptions_PBREnumID: 0
+    - _V_WIRE_Size: 0.75
+    - _V_WIRE_Source_Options: 0
+    - _V_WIRE_Tag: 0
+    - _V_WIRE_Title_M_Options: 0
+    - _V_WIRE_Title_S_Options: 0
+    - _V_WIRE_Title_UAR_Options: 0
+    - _V_WIRE_Title_V_Options: 0
+    - _V_WIRE_Title_W_Options: 0
+    - _V_WIRE_TransparencyEnumID: 0
+    - _V_WIRE_Transparency_M_Options: 0
+    - _V_WIRE_TransparentTex_Alpha_Offset: 0
+    - _V_WIRE_TransparentTex_Invert: 0
+    - _V_WIRE_VertexColor: 0
+    - _V_WIRE_WireTex_UVSet: 0
+    - _V_WIRE_WireVertexColor: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    - _node_4757: 0
+    m_Colors:
+    - Color_B1E7240C: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+    - Color_E1A5708: {r: 0.259, g: 0.20504166, b: 0.13849306, a: 1}
+    - Vector4_4B88634A: {r: 1, g: 1, b: 0, a: 0}
+    - _AlbedoColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 1, g: 0.5424528, b: 0.5424528, a: 1}
+    - _BordColor: {r: 0.58431375, g: 0.5372549, b: 0.4901961, a: 1}
+    - _Color: {r: 1, g: 0.54245275, b: 0.54245275, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Fresnel_Color: {r: 0.8897059, g: 0.96805274, b: 1, a: 1}
+    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    - _V_WIRE_Color: {r: 1, g: 1, b: 1, a: 1}
+    - _V_WIRE_MainTex_Scroll: {r: 0, g: 0, b: 0, a: 0}
+    - _V_WIRE_ObjectWorldPos: {r: 0, g: 0, b: 0, a: 0}
+    - _V_WIRE_SourceTex_Scroll: {r: 0, g: 0, b: 0, a: 0}
+    - _V_WIRE_WireTex_Scroll: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &307533613653278819
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

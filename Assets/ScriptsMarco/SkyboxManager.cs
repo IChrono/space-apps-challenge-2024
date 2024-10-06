@@ -13,7 +13,7 @@ public class SkyboxManager : MonoBehaviour
     private GameObject skyboxSphere;
 
     [SerializeField]
-    private Texture2D[] textures;
+    private Cubemap[] textures;
 
     
 
@@ -46,7 +46,7 @@ public class SkyboxManager : MonoBehaviour
     {
         if(skyboxid != 99){
 
-            skyboxSphere.GetComponent<Renderer>().sharedMaterial.SetTexture("_Base_Texture", textures[skyboxid] );
+            skyboxSphere.GetComponent<Renderer>().sharedMaterial.SetTexture("_Cubemap", textures[skyboxid] );
         }
         float currentTime = 0f;
         float startValue = skyboxSphere.GetComponent<Renderer>().sharedMaterial.GetFloat("_Cutoff_Height");

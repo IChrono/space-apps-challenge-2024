@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Marco
   m_EditorClassIdentifier: 
   id: 2
-  exoName: Marco
-  description: hlkkl
+  exoName: Trappist-1d
+  description: Smaller than Earth, potentially has water and located on the inner
+    edge of the habitable zone.
   distanceLightYears: 0
