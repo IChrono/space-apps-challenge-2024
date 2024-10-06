@@ -5,9 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/testParticles.unity
-    guid: 848b903bbb21a4af7a712a4883c2339e
+    path: "Assets/Samples/Meta XR Interaction \u200BSDK/68.0.2/Example Scenes/SnapExamples.unity"
+    guid: 01ca63189b69e00488487d660224a315
+  - enabled: 0
+    path: Assets/TestingPassThru/PassThru.unity
+    guid: cb3bb0803108f4e7694e29f88962fa97
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c62eb61aeec0b472d9c42fe23c1d3c41,
       type: 2}
